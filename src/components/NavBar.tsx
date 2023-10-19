@@ -5,7 +5,7 @@ import ThemeSwitch from './ThemeSwitch'
 function NavBar() {
   return (
     <HStack justifyContent={'space-between'} paddingInline={10}>
-      <Image src={logo} boxSize={65} className='mt-3' />
+      <Image src={logo} boxSize={65} marginTop={3} />
       <ThemeSwitch />
     </HStack>
   )
